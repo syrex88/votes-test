@@ -1,6 +1,6 @@
 # Тестовое задние на реализацию  просмотра карточек завершенных голосований с сайта vmeste-region.ru.
 
-> My outstanding Nuxt.js project
+> Nuxt.js + Vue.js project
 
 ## Build Setup
 
