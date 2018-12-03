@@ -26,7 +26,6 @@ export default {
     await this.$votes.getListExpired(1, 2)
   },
   methods: {
-    // TODO: написать js доку
     async addNewSlide(page) {
       let votes = await this.$votes.getListExpired(page, 1)
       this.$store.commit('ADD_VOTES_EXPIRED', votes)
