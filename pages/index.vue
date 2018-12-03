@@ -28,7 +28,8 @@ export default {
   methods: {
     // TODO: написать js доку
     async addNewSlide(page) {
-      await this.$votes.getListExpired(page, 1)
+      let votes = await this.$votes.getListExpired(page, 1)
+      this.$store.commit('ADD_VOTES_EXPIRED', votes)
     },
     clickSlide(num) {
       window.open(
