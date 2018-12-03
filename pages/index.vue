@@ -24,6 +24,7 @@ export default {
   },
   created() {
     this.addNewSlide(1)
+    this.addNewSlide(2)
   },
   methods: {
     async addNewSlide(page) {
