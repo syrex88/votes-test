@@ -22,8 +22,8 @@ export default {
     Logo,
     Swiper
   },
-  async created() {
-    await this.$votes.getListExpired(1, 2)
+  created() {
+    this.addNewSlide(1)
   },
   methods: {
     async addNewSlide(page) {
