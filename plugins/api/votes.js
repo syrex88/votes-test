@@ -8,6 +8,6 @@ export default ({ app, store }, inject) => {
       `/api/votes?perPage=${perPage}&page=${page}&expired=true`
     )
     let votes = data.data.data.votes
-    store.commit('ADD_VOTES_EXPIRED', votes)
+    return votes
   }
 }
