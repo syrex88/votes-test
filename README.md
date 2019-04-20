@@ -1,4 +1,4 @@
-# Реализация  просмотра карточек завершенных голосований с сайта vmeste-region.ru.
+# Implementation of viewing completed polls from the site vmeste-region.ru.
 
 > Nuxt.js + Vue.js project
 
